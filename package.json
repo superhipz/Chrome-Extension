@@ -1,0 +1,30 @@
+{
+    "name": "front_end",
+    "version": "3.6.2",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service build --mode development --watch",
+        "build": "vue-cli-service build && node ./src/obfuscate.js ",
+        "lint": "vue-cli-service lint",
+        "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
+    },
+    "dependencies": {
+        "core-js": "^3.6.5",
+        "vue": "^2.6.11"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "babel-cli": "^6.26.0",
+        "babel-eslint": "^10.1.0",
+        "babel-preset-es2015": "^6.24.1",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "sass": "^1.26.5",
+        "sass-loader": "^8.0.2",
+        "vue-cli-plugin-browser-extension": "~0.25.2",
+        "vue-template-compiler": "^2.6.11"
+    }
+}
