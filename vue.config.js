@@ -9,6 +9,9 @@ module.exports = {
             title: 'Popup'
         }
     },
+    configureWebpack: {
+        devtool: 'cheap-module-source-map'
+    },
     pluginOptions: {
         browserExtension: {
             componentOptions: {
