@@ -1,7 +1,6 @@
 {
     "manifest_version": 3,
     "name": "Extension",
-    "homepage_url": "https://facebook.com",
     "content_security_policy": {
         "extension_pages": "script-src 'self';object-src 'self'; connect-src *"
     },
