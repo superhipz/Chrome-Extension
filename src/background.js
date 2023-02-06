@@ -1,1 +1,3 @@
-console.log(123)
+chrome.action.onClicked.addListener(tab => {
+    console.log(tab)
+})
